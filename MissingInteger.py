@@ -1,4 +1,4 @@
-
+# Function that, given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
 
 def solution(A):
     A = set([x for x in A if x > 0])
