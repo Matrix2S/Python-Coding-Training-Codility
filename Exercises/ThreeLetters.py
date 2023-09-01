@@ -1,3 +1,6 @@
+# Write a function solution that, given two integers A and B, returns a string containing exactly A letters 'a' and exactly B letters 'b'
+# with no three consecutive letters being the same (in other words, neither "aaa" nor "bbb" may occur in the returned string).
+
 def solution(A,B):
     
     k = ""
