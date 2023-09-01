@@ -1,3 +1,8 @@
+# A non-empty array A consisting of N integers is given.
+# A permutation is a sequence containing each element from 1 to N once, and only once.
+
+# Function that, given an array A, returns 1 if array A is a permutation and 0 if it is not.
+
 def solution(A):
     a = 1
     while a in A:
@@ -13,7 +18,7 @@ solution(A)
 
 
 
-
+### Discarded Solution ###
 def solution(A):
     for i in A:
         if 0 < i < len(A)+1:
